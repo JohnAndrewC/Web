@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body header {
+  background-color: #f5f3f0;
+  height: 720px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 98%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 98%);
+}
+body header .header1 {
+  position: relative;
+}
+body header .header1 #c {
+  position: absolute;
+  bottom: -60px;
+  right: 0px;
+}
+body header .header2 .p-header {
+  font-size: 1.125rem;
+  color: #9e8c6c;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+body header .header2 .heading-header {
+  font-size: 7.875rem;
+  width: 600px;
+  line-height: 110px;
+}
+body header .header2 .button-header {
+  margin-top: 30px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: #0699a6;
+  padding: 10px 20px;
+}
+body main {
+  justify-content: space-evenly;
+  display: flex;
+}
+body main .Group1 {
+  width: 370px;
+  height: 1559px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .Group1 ul {
+  font-size: 1.125rem;
+  color: #9e8c6c;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+body main .Group1 ul li {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body main .Group1 ul .li {
+  text-transform: none;
+  margin-bottom: 35px;
+}
+body main .Group1 ul .li b {
+  font-size: 1.2rem;
+}
+body main .Group1 ul .a {
+  text-transform: lowercase;
+  font-size: 1rem;
+  color: #0699a6;
+}
+body main .Group2 {
+  width: 650px;
+  height: 1559px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .Group2 h2 {
+  font-size: 1.6rem;
+  margin-bottom: -60px;
+}
+body main .Group2 p {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 70px;
+}
+body main .Group2 div.box {
+  width: 71px;
+  height: 10px;
+  background: #0699a6;
+}
+body main .Group2 ul {
+  font-size: 1.125rem;
+  color: #9e8c6c;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+body main .Group2 ul li {
+  margin-top: 12px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: black;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: none;
+}
+body footer {
+  height: 547px;
+  background-color: #f5f3f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  -webkit-clip-path: polygon(0 28%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 28%, 100% 0, 100% 100%, 0 100%);
+}
+body footer #h-footer {
+  font-size: 4.125rem;
+  margin-bottom: 40px;
+}
+body footer h4 {
+  font-size: 1.8rem;
+  color: #0699a6;
+  margin-bottom: 65px;
+}
+body footer ul {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
