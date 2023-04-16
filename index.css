@@ -102,11 +102,6 @@ body main .Group2 p {
   font-family: "PT Sans Narrow", sans-serif;
   margin-top: 70px;
 }
-body main .Group2 div.box {
-  width: 71px;
-  height: 10px;
-  background: #0699a6;
-}
 body main .Group2 ul {
   font-size: 1.125rem;
   color: #9e8c6c;

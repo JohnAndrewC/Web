@@ -1,0 +1,58 @@
+@media screen and (max-width: 1024px) {
+  body header {
+    height: 768px;
+    flex-direction: column;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+  }
+  body header .header1 img {
+    height: 200px;
+  }
+  body header .header1 #c {
+    height: 100px;
+    top: -20px;
+    right: -40px;
+  }
+  body header .header2 {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body header .header2 .heading-header {
+    font-size: 6rem;
+    text-align: center;
+  }
+  body header .header2 .button-header {
+    width: 180px;
+  }
+  body main {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: -200px;
+  }
+  body main .Group1 {
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: -100px;
+  }
+  body main .Group2 {
+    width: 80%;
+  }
+  body main .Group2 h2 {
+    margin-bottom: 10px;
+  }
+  body main .Group2 p {
+    margin-top: 53px;
+  }
+  body footer {
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  }
+  body footer h4 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=tablet_responsive.css.map */

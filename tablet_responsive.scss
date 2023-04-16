@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+  body {
+    header {
+      height: 768px;
+      flex-direction: column;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+
+      .header1 {
+        img {
+          height: 200px;
+        }
+        #c {
+          height: 100px;
+          top: -20px;
+          right: -40px;
+        }
+      }
+      .header2 {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .heading-header {
+          font-size: 6rem;
+          text-align: center;
+        }
+        .button-header {
+          width: 180px;
+        }
+      }
+    }
+    main {
+      align-items: center;
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: -200px;
+
+      .Group1 {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin-top: -100px;
+      }
+      .Group2 {
+        width: 80%;
+        // margin-bottom: -160px;
+        h2 {
+          margin-bottom: 10px;
+        }
+        p {
+          margin-top: 53px;
+        }
+      }
+    }
+    footer {
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+
+      h4 {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 460px) {
+    body {
+      header {
+        height: 600px;
+        flex-direction: column;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+  
+        .header1 {
+          img {
+            height: 160px;
+          }
+          #c {
+            height: 80px;
+          }
+        }
+        .header2 {
+          .heading-header {
+            font-size: 3.8rem;
+            width: 100%;
+            line-height: 60px;
+          }
+        }
+      }
+      main {  
+        height: auto;
+        .Group1 {
+          width: 90%;
+          margin-top: 0px;
+          height: 1500px;
+        }
+        .Group2 {
+          width: 90%;
+          height: auto;
+          h2 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+          }
+          ul {
+            margin-top: 20px;
+          }
+
+        }
+      }
+      footer {
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+        #h-footer {
+            font-size: 2.5rem;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,45 @@
+@media screen and (max-width: 460px) {
+  body header {
+    height: 600px;
+    flex-direction: column;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 98%);
+  }
+  body header .header1 img {
+    height: 160px;
+  }
+  body header .header1 #c {
+    height: 80px;
+  }
+  body header .header2 .heading-header {
+    font-size: 3.8rem;
+    width: 100%;
+    line-height: 60px;
+  }
+  body main {
+    height: auto;
+  }
+  body main .Group1 {
+    width: 90%;
+    margin-top: 0px;
+    height: 1500px;
+  }
+  body main .Group2 {
+    width: 90%;
+    height: auto;
+  }
+  body main .Group2 h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  body main .Group2 ul {
+    margin-top: 20px;
+  }
+  body footer {
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  }
+  body footer #h-footer {
+    font-size: 2.5rem;
+  }
+}/*# sourceMappingURL=Iphone_XS_responsive.css.map */

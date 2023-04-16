@@ -110,11 +110,7 @@ body {
         @include text-2();
         margin-top: 70px;
       }
-      div.box {
-        width: 71px;
-        height: 10px;
-        background: #0699a6;
-      }
+
       ul {
         @include text-1();
         li {
